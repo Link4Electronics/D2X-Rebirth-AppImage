@@ -2,5 +2,5 @@
 dir=$HOME/.d2x-rebirth
 if [ ! -f "$dir"/d2xr-sc55-music.dxa ]; then
   mkdir -p "$dir"
-  ln -s "$APPDIR"/bin/d2xr-sc55-music.dxa "$dir"
+  ln -sf "$APPDIR"/bin/d2xr-sc55-music.dxa "$dir"
 fi
